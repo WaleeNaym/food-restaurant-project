@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Height & color parameters are all from figma/pixso */
-/*If figma div width is 1920 but my device size is 1280, then calculate (1280/1920)*100=66.67%  */
-/*hero-content is 1023, my browser is 1745, so 58.62%*/
+/* Height/Width & color parameters are all from figma/pixso */
+/*If figma div width is 1920 but my device size is 1280, then calculate (1280/1920)*100=66.67%, again 1280*0.667=853.76  */
+/*If figma width smaller than my device width, then no need to calculate width */
+
+
 
 #hero {
     background-color: tomato;
@@ -11,4 +13,19 @@
     background-size: cover;
     /* background-repeat: no-repeat; */
     background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*hero-content width is 1023, my browser is 1920, so 53.28%, again 0.5328*1023=545px should be the width */
+
+#hero .hero_content {
+    width: 545px;
+
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin: 0 auto; */
 }
