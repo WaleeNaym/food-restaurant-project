@@ -1,2 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Height & color parameters are all from figma/pixso */
+/*If figma div width is 1920 but my device size is 1280, then calculate (1280/1920)*100=66.67%  */
+/*hero-content is 1023, my browser is 1745, so 58.62%*/
+
+#hero {
+    background-color: tomato;
+    background-image: url("../assets/hero-bg.png");
+    height: 919px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
