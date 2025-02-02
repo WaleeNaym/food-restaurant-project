@@ -11,7 +11,6 @@
 
 .btn_container{
     text-align: center;   /*since button is Just Text and an inline element*/
-    margin: 32px 0px;
 }
 .btn_style {
     padding: 21px 32px 21px 32px;
@@ -70,7 +69,7 @@
     line-height: 38px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 #hero .hero_content .title_01 {
@@ -81,6 +80,7 @@
     line-height: 80px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 #hero .hero_content .description_01 {
@@ -92,4 +92,5 @@
     line-height: 28px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 32px;
 }
